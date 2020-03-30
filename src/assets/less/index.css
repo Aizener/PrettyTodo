@@ -1,0 +1,59 @@
+.header {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+}
+.none {
+  display: none;
+}
+.hidden {
+  visibility: hidden;
+}
+.block {
+  display: block;
+}
+.block-10 {
+  height: 10px;
+}
+.block-20 {
+  height: 20px;
+}
+.block-30 {
+  height: 30px;
+}
+.mtl {
+  margin-top: 30px;
+}
+.mtm {
+  margin-top: 20px;
+}
+.mts {
+  margin-top: 10px;
+}
+html {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+#app {
+  height: 100vh;
+  overflow: scroll;
+}
+.bg-blue {
+  background: linear-gradient(to bottom, #00BFFF, #1E90FF, #4169E1);
+}
+.bg-red {
+  background: linear-gradient(to bottom, #FFA07A, #FA8072, #FF7F50);
+}
+.bg-green {
+  background: linear-gradient(to bottom, #66CDAA, #228B22, #006400);
+}
